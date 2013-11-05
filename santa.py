@@ -66,7 +66,7 @@ class SecretSanta(object):
     def test(self, numTests):
         count = 0
         for i in range(numTests):
-            count += Santa._bogo_choose()
+            count += self._bogo_choose()
         print "total: %i, average: %f" %(count, count/float(numTests))        
 
     def pick_mark1():
